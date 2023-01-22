@@ -1,0 +1,23 @@
+.main-create{
+    border: 1px solid;
+    padding: 50px;
+}
+
+.auth-locate{
+    margin: 10px 0;
+}
+
+.author{
+    margin-right: 20px;
+}
+
+.post-btn button{
+    width: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    background: cadetblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    /* border-radius: 4px; */
+}

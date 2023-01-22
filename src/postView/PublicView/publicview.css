@@ -1,0 +1,51 @@
+.row-1{
+    display: flex;
+    margin: 10px;
+}
+.option{
+    margin-left: auto;
+    /* margin-right: 20px; */
+}
+.post-card{
+    width: 35vw;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin: 20px auto;
+    background: whitesmoke;
+}
+.name{
+    font-family: system-ui;
+    font-weight: bold;
+}
+.location, .likes{
+    color: rgb(180, 176, 176);
+}
+/* .heart-date{
+    margin: 0px 10px;
+} */
+/* .heart-date span{
+    margin: 0 10px;
+}
+.date{
+    float: right;
+} */
+.row-3{
+    margin: 10px 10px;
+}
+.row-3 div{
+    margin: 10px 0;
+}
+.share{
+    margin-left: 10px;
+}
+.date{
+    float:right;
+}
+.description{
+    font-weight:bold;
+}
+.row-2 img{
+    width: 100%;
+    height: 200px;
+}

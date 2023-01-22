@@ -1,0 +1,30 @@
+.Landing-container {
+  display: flex;
+  padding: 4vw;
+  column-gap: 15vw;
+  border: 1px solid;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 20px;
+}
+
+.landing-img{
+    width:40vw;
+}
+
+.tenx{
+  font-size: 3vw;
+}
+
+.landing-button button{
+    width: 70%;
+    padding: 10px;
+    background: #33CC33;
+    border-radius: 4px;
+    margin-top: 10px;
+    border-color: #ccc;
+    color: white;
+    font-size: 20px;
+    /* background: linear-gradient(45deg, black, transparent); */
+    /* height: 10vh; */
+}
