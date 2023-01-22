@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1719aff.css",
+    "main.js": "/static/js/main.1ecaebc4.js",
+    "static/media/camera.png": "/static/media/camera.7a671f184972f30f087c.png",
+    "static/media/homeImg.jpg": "/static/media/homeImg.c18e92f59bac77535c80.jpg",
+    "static/media/instaLogo.png": "/static/media/instaLogo.8c91688f76eb77643b8f.png",
+    "index.html": "/index.html",
+    "main.a1719aff.css.map": "/static/css/main.a1719aff.css.map",
+    "main.1ecaebc4.js.map": "/static/js/main.1ecaebc4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1719aff.css",
+    "static/js/main.1ecaebc4.js"
+  ]
+}

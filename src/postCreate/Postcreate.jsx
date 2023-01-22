@@ -37,7 +37,7 @@ const Postcreate = () => {
     //   console.log(val, key)
     // })
 
-     await fetch("/posts", {
+     await fetch("https://instaclone-app-zylu.onrender.com/posts", {
       method:"POST",
       body: formData
     });

@@ -6,7 +6,7 @@ const PublicView=()=>{
     const [user, setUser]= useState(null);
 
     const fetchPosts= async ()=>{
-        const response= await fetch("/posts")
+        const response= await fetch("https://instaclone-app-zylu.onrender.com/posts")
         setUser(await response.json());
     }
 
@@ -35,7 +35,7 @@ const PublicView=()=>{
                     </section>
 
                     <section className="row-2 image-container">
-                        <img src={`http://localhost:8080/images/${val.image}`} alt={`img-logo ${i}`}/>
+                        <img src={`https://instaclone-app-zylu.onrender.com/images/${val.image}`} alt={`img-logo ${i}`}/>
                     </section>
 
                     <section className="row-3">
