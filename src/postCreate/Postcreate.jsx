@@ -1,10 +1,11 @@
 import { React, useState } from "react";
-import { Link } from "react-router-dom";
+// import { useHistory } from "react-router-dom";
 import "./postCreate.css";
 // import axios from "axios";
-// import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom"
 
 const Postcreate = () => {
+  const navigate= useNavigate();
   const [data, setData] = useState({
     author: "",
     location: "",
@@ -41,6 +42,8 @@ const Postcreate = () => {
       method:"POST",
       body: formData
     });
+
+    navigate("/posts")
 
     // const post= await res.json();
 
@@ -86,13 +89,11 @@ const Postcreate = () => {
             onChange={handleChange}
           />
         </div>
-          <Link to="http://localhost:3000/posts/">
         <div className="post-btn">
           <button type="submit" onClick={handleSubmit}>
             Post
           </button>
         </div>
-          </Link>
       </form>
     </div>
   );

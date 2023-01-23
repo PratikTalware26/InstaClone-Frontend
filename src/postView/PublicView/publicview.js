@@ -18,7 +18,7 @@ const PublicView=()=>{
         return <h1>Loading...</h1>
     }
 
-    console.log(user.result)
+    // console.log(user.result)
 
  return(
    <div className="post-container">

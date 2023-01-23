@@ -3,6 +3,7 @@ import LandingPage from "./LandingPage/LandingPage";
 import Posts from "./postView/Posts";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Postcreate from "./postCreate/Postcreate";
+// import Header from "./postView/Header/Header";
 
 const App=()=>{
     return(
